@@ -1,6 +1,5 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Apresentação para o evento "Conferência Livre - Ciência no Combate à Desinformação" - 2 e 3 de abril de 2024 em Brasília
+# Apresentação para o evento do LABHDUFRJ - 4 e 5 de Julho no Rio de Janeiro
 
-![](images/conf.jpeg)
