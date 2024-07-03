@@ -6,7 +6,7 @@ format:
     height: 900
     self-contained: false
     incremental: false
-    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3). Code available [on GitHub](https://github.com/leofn/combate_desinformacao_2024). Thanks [Bia Milz](https://beamilz.com/) and [Icaro Bernardes](https://github.com/IcaroBernardes)"
+    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3). Code available [on GitHub](https://github.com/LABHDUFBA/2024_labhdufrj_minicurso)"
     theme: ["simple"]
     slide-number: c/t
     title-slide-attributes:
@@ -18,12 +18,42 @@ format:
     preload-iframes: true
 ---
 
+# {background-iframe="colored-particles/index.html"}
+
 <br><br>
-<div style="text-align: center; font-size: 100px;"> <strong>Desafios da pesquisa sobre o ecossistema multiplataforma de desinformação e radicalização no Brasil</strong> </div>
+<div style="text-align: center; font-size: 100px;"> <strong>Métodos computacionais de pesquisa nas ciências sociais: ferramentas e possibilidades</strong> </div>
 <div style="text-align: center; font-size: 60px;"> <strong>Leonardo F. Nascimento</strong> </div>
-<div style="text-align: center; font-size: 50px;"> 02/04/2024 </div>
+<div style="text-align: center; font-size: 50px;"> 04/07/2024 </div>
 
 ![](images/qrcode.png){.absolute bottom=0 right=5 width="275" height="300"}
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>SOBRE MIM</strong> </div>
+<br>
+
+::: columns
+::: {.column width="60%"}
+
+-   Atividades e formação:
+
+    -   Professor da UFBA, coordenador do LABHDUFBA;
+
+    -   5% Químico, 10% Gestor Governamental, 20% Psicólogo, 25% Programador, 40% Cientista Social Computacional;
+
+    -   R, Python, Bash, Git/Github, ElasticSearch/Kibana, Docker, Huggingface etc;
+
+-   Contatos pessoais:
+
+    - [Email](mailto:leofn3@gmail.com) - [Website](https://leofn.com/) -  [Twitter](https://twitter.com/leofn3) - [Github](https://github.com/leofn) - [LinkedIn](https://www.linkedin.com/in/leofn-labhdufba/)
+
+:::
+::: {.column width="35%"}
+
+![](images/leofn.jpg)
+
+:::
+:::
 
 ## 
 
@@ -33,21 +63,17 @@ format:
 ::: columns
 ::: {.column width="60%"}
 
--   Sobre mim:
+-   Objetivos:
 
-    -   Professor da UFBA e coordenador do LABHDUFBA
+    -   Investigar a produção de conhecimento em Humanidades Digitais;
 
-    -   Químico, Psicólogo, Doutor em Sociologia, Cientista Social Computacional
-    
-    -   R, Python, Bash, ElasticSearch/Kibana, Docker
+    -   Fomentar a formação de pesquisadores em métodos computacionais;
 
--   Contatos pessoais:
-
-    - [Email](mailto:leofn3@gmail.com) - [Website](https://leofn.com/) -  [Twitter](https://twitter.com/leofn3)
+    -   Promover a interdisciplinaridade entre as áreas de Humanidades e Ciências Exatas.
 
 -   Contatos do LABHDUFBA:  
 
-    - [Email](mailto:labhdufba@gmail.com) - [Website](https://labhd.ufba.br) -  [Twitter](https://twitter.com/labhdufba)
+    - [Email](mailto:labhdufba@gmail.com) - [Website](https://labhdufba.github.io/) -  [Twitter](https://twitter.com/labhdufba)
 
 
 :::
@@ -58,206 +84,175 @@ format:
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>O LABHDUFBA investiga, desde 2020, grupos e canais do  Telegram...</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>OBJETIVO DO MINICURSO</strong> </div>
+<br>
+
+::: {.incremental}
+
+- Definir métodos computacionais (na pesquisa nas ciências sociais);
+<br><br>
+
+- Descrever alguns dos desafios;
+<br><br>
+
+- Apresentar as possibilidades através de casos e exemplos;
+<br><br>
+
+- Convecer vocês de que vale a pena;
+<br><br>
+
+- Sugerir caminhos e materiais por onde começar...
+
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>QUEBRANDO O GELO...</strong> </div>
 <br>
 
 ::: columns
-::: {.column width="65%"}
+::: {.column width="60%"}
 ::: {.incremental}
 
-- Em parceria com PPGAS/UFSC (Prof. Letícia Cesarino) e apoio do InternetLab
+- Quem são vocês? 
 <br><br>
 
-- \+ de 50 milhões de mensagens
+- Quais ferramentas digitais/computacionais vocês usam?
 <br><br>
 
-- \+ 2.8 milhões de imagens e \+ de 700 mil vídeos
-<br><br>
-
-- \+ de 500 mil links do Youtube
-<br><br>
-
-- \+ 20 Terabytes de dados
+- Para que vir neste minicurso?
 
 :::
 :::
-::: {.column width="35%"}
+::: {.column width="40%"}
 
-![](images/telegram.webp)
+![](images/noob.webp)
 
 :::
 :::
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>Aliança entre raciocínio computacional com a compreensão interpretativa das ciências sociais</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>O que são métodos computacionais?</strong> </div>
+<br>
+
+::: columns
+::: {.column width="50%"}
+
 <br><br>
+<div style="text-align: justify;">Em resumo, uma ciência social computacional é um [campo] emergente que aproveita a capacidade de coletar e analisar dados com uma amplitude, profundidade e escala sem precedentes."</div>
+
+<br>
+
+[Lazer, D. et al. 2009. Computational Social Science. Science. 6 February 2009: Vol. 323, no. 5915, pp. 721-723.](https://www.science.org/doi/abs/10.1126/science.1167742)
+
+:::
+::: {.column width="50%"}
+
+![](images/csc1.png)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>O que são métodos computacionais?</strong> </div>
+<br>
 
 ::: columns
 ::: {.column width="60%"}
-::: {.incremental}
 
-- **Ciência de dados com ciências sociais**
 <br><br>
+<div style="text-align: justify;">O novo campo da Ciência Social Computacional pode ser definido como a investigação interdisciplinar do universo social em várias escalas, variando de atores individuais aos grandes grupos, através do meio da computação."</div>
 
-- **Rastreabilidade** total dos conteúdos 
-<br><br>
+<br>
 
-- Detecção de **"talkatives"** e porta-vozes
-<br><br>
+[Cioffi-Revilla, Claudio (2014). Introduction to Computational Social Science. Springer-Verlag, London.](https://libgen.rs/book/index.php?md5=D48D3066F996FBADAA0BDADE8B54C043)
 
-- **Fine-tunning de modelos de NLP**: NER, BERTopic e [detecção de racismo](https://huggingface.co/leofn3/modelo_racismo_setfit_5jan24)
-<br><br>
-
-- Telegram enquanto **espaço de experimentações**
-
-:::
 :::
 ::: {.column width="40%"}
 
-::: {style="font-size: 80%;"}
-::: {.incremental}
-
-
-- [Públicos refratados: grupos de extrema-direita brasileiros na plataforma Telegram](https://revista.internetlab.org.br/wp-content/uploads/2023/01/publicos.pdf)
-____
-- [Demarcating patriotic science on digital platforms: Covid-19, chloroquine and the institutionalisation of ignorance in Brazil](https://www.tandfonline.com/doi/abs/10.1080/09505431.2022.2105691)
-____
-- [“Intankaveis contra o Bostil”: racismo, misoginia e anti-semitismo em chats do Telegram (2020-2023) - em Breve!](https://periodicosnic.emnuvens.com.br/revista/index)
+![](images/css2.jpg)
 
 :::
 :::
-:::
-:::
 
+##
 
-## Ecossistema multiplataforma de desinformação e radicalização
-
-<br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>Antropologia Digital</strong> </div>
+  <br>
 
 ::: columns
-::: {.column width="40%"}
-<br>
-<div style="text-align: justify"> A utilização **sistemática e estratégica** de ferramentas, tecnologias e serviços que permitem a criação e disseminação de desinformação e incitação à radicalização política em **diferentes plataformas**, como redes sociais, sites de notícias e aplicativos de mensagens. </div>
-
-
-::: 
 ::: {.column width="60%"}
 
-![](images/DALL.webp){fig-align="center"}
-
-:::
-:::
-
-
-#
-
-<div style="text-align: center; font-size: 55px;"> <strong>QUAIS SÃO OS DESAFIOS?</strong> </div>
-<br><br>
-
-::: {.incremental}
-
-- Acesso aos dados
-<br><br>
-
-- Complexidade metodológica
-<br><br>
-
-- Espaço de debates
-<br><br>
-
-- Fomento à pesquisa
-
-
-:::
-
-# 
-
-<div style="text-align: center; font-size: 55px;"> <strong>ACESSO AOS DADOS</strong> </div>
-<br>
-
-::: {.incremental}
-
-- **Política de acesso aos dados digitais** de todas as plataformas
-<br><br>
-
-- **"Sem API não há solução!"**
-<br><br>
-
-- Plataforma pública e auditável de **armazenamento**
-<br><br>
-
-- Pensar os **dados digitais enquanto memória social**
-<br><br>
-
-:::
-
-# 
-
-<div style="text-align: center; font-size: 55px;"> <strong>COMPLEXIDADE METODOLÓGICA</strong> </div>
-<br>
-
-::: {.incremental}
-
-- Dados digitais contituem um **"objeto epistêmico complexo"** [Aradau & Blanke, 2015](http://dx.doi.org/10.1177/2053951715609066)
-<br><br>
-
-- **Estratégia penelopeana de desinformação e radicalização**
-<br><br>
-
-- Coleta de dados em tempo real: a **vigilância-como-método**
-<br><br>
-
-- Necessidade de **atualização do Sistema CEP/Conep** diante das pesquisas com dados digitais 
-<br><br>
-
-- Esboçar, de modo inequívoco, a **relação dos dados coletados de plataformas digitais com a LGPD** 
-
-:::
-
-# 
-
-<div style="text-align: center; font-size: 55px;"> <strong>ESPAÇO DE DEBATES</strong> </div>
-<br>
-
-::: {.incremental}
-
-- As **pesquisas brasileiras sobre desinformação** tem produzido insights relevantes
-<br><br>
-
-- Necessidade de uma **agenda regular sobre desinformação**
-<br><br>
-
-- Tentar diminuir as **disputas do campo acadêmico**
-<br><br>
-
-- Não existe uma autoridade única sobre desinformação no Brasil: **"tweets" e "textos de opinião" não devem ser comparados com a produção científica**   
-
-:::
-
-# 
-
-<div style="text-align: center; font-size: 55px;"> <strong>FOMENTO</strong> </div>
-<br>
-
-::: {.incremental}
-
-- **Divisão igualitária de recursos com a região norte-nordeste**
-<br><br>
-
-- **Estrutura pública de servidores (VMs) e armazenamento (S3)** ou "cotas em nuvens" 
-<br><br>
-
-- **Ampliação dos valores das diferentes modalidades de bolsas de pesquisa, especialmente Iniciação Científica**
-<br><br>
-
-- Financiamento de novas graduações e pós-graduações em **Humanidades Digitais** e/ou modalidades híbridas  
-<br><br>
-
-:::
-
-
-# {background-iframe="colored-particles/index.html"}
+<div style="text-align: justify;">"A própria idéia de 'cultura' ou 'sociedade' não pode ser plenamente compreendida sem o reconhecimento de que os dispositivos de software e hardware constituem ativamente a individualidade, a corporeidade, a vida social, as relações sociais e as instituições."</div>
 
 <br>
-<div style="text-align: center; font-size: 200px;"> <strong>Obrigado!</strong> </div>
+
+[HORST, H. A.; MILLER, D. Digital Anthropology. Bloomsbury Academic, 2012. ](https://libgen.rs/book/index.php?md5=C690089682983C375AA11E01414F917C)
+
+:::
+::: {.column width="40%"}
+
+![](images/css3.jpg)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Mudança de paradigma nas ciências sociais</strong> </div>
+  <br>
+
+::: columns
+::: {.column width="70%"}
+
+<div style="text-align: justify;">"Apesar de todas as diferenças, ciências sociais computacionais, métodos digitais e big data compartilham uma convicção subjacente: novas fontes de dados e novas técnicas para armazenamento e análise de dados podem levar à próxima mudança de paradigma nas ciências sociais." (JUNGHERR, 2015, p.34)</div>
+
+<br>
+
+[JUNGHERR, A. Analyzing Political Communication with Digital Trace Data: The Role of Twitter Messages in Social Science Research. Springer, 2015.](https://libgen.rs/book/index.php?md5=BBAB3DEC198CF14E85638E8D2937D831)
+
+:::
+::: {.column width="30%"}
+
+![](images/css4.jpg)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>TITULO</strong> </div>
+  <br>
+
+::: columns
+::: {.column width="60%"}
+
+
+
+:::
+  ::: {.column width="40%"}
+
+![](images/)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>TITULO</strong> </div>
+  <br>
+
+::: columns
+::: {.column width="60%"}
+
+texto
+
+:::
+  ::: {.column width="40%"}
+
+![](images/)
+
+:::
+:::
