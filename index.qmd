@@ -120,7 +120,7 @@ format:
 - Quais ferramentas digitais/computacionais vocês usam?
 <br><br>
 
-- Para que vir neste minicurso?
+- Por que vir neste minicurso?
 
 :::
 :::
@@ -133,11 +133,22 @@ format:
 
 ##
 
+<br><br><br><br><br><br><br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>MÉTODOS COMPUTACIONAIS: EM BUSCA DE UMA DEFINIÇÃO</strong> </div>
+<br>
+
+
+##
+
 <div style="text-align: center; font-size: 55px;"> <strong>O que são métodos computacionais?</strong> </div>
+
+::: {.incremental}
+
 <br>
 
 ::: columns
 ::: {.column width="50%"}
+
 
 <br><br>
 <div style="text-align: justify;">Em resumo, uma ciência social computacional é um [campo] emergente que aproveita a capacidade de coletar e analisar dados com uma amplitude, profundidade e escala sem precedentes."</div>
@@ -151,6 +162,7 @@ format:
 
 ![](images/csc1.png)
 
+:::
 :::
 :::
 
@@ -179,8 +191,125 @@ format:
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>Antropologia Digital</strong> </div>
-  <br>
+<br><br><br><br><br><br><br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>SOCIOGÊNESE DOS MÉTODOS COMPUTACIONAIS</strong> </div>
+<br>
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Digitalização do eu na vida cotidiana (Nascimento, 2020)</strong> </div>
+<br>
+
+![](images/ds.jpeg){fig-align="center"}
+
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Algoritmização de processos sociais</strong> </div>
+<br>
+
+
+
+![](images/matrix-digital-self.png){fig-align="center"}
+
+
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Traços digitais (Howison et al. 2011, p. 769)</strong> </div>
+<br>
+
+
+![](images/socioloy.png){fig-align="center"}
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Dataficação (Cukier & Mayer-Schoenberger, 2013)</strong> </div>
+<br>
+
+
+![](images/datafication4.jpg){fig-align="center"}
+
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Cultura de vigilância</strong> </div>
+<br>
+
+
+![](images/surv.jpg){fig-align="center"}
+
+
+##
+
+<br><br><br><br><br><br><br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>EFEITOS DESTES "PROCESSOS DE DIGITALIZAÇÃO" SOBRE AS CIÊNCIAS SOCIAIS</strong> </div>
+<br>
+
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Andrew Abbott - Reflections on the Future of Sociology (2000)</strong> </div>
+<br>
+
+::: columns
+::: {.column width="70%"}
+::: {.incremental}
+
+- **"...sociologia está lamentavelmente despreparada para lidar com esse problema: não temos nem as ferramentas analíticas nem a imaginação conceitual necessária"**  
+<br><br>
+
+-  "temos demasiados teóricos que não fazem nada além de pensar sobre a teoria anteriormente produzida. [...] Importantes teorias sociais sempre crescem a partir de um extenso trabalho empírico"
+<br><br>
+
+- A Sociologia precisa de uma nova e grande idéia teórica
+<br><br>
+
+
+- [Link para o artigo](https://doi.org/10.2307/2654383)
+
+:::
+:::
+::: {.column width="30%"}
+
+![](images/abbott.jpg)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Mike Savage &  Roger Burrows - The Coming Crisis of Empirical Sociology (2007) - </strong> </div>
+<br>
+
+::: columns
+::: {.column width="60%"}
+::: {.incremental}
+
+- Um dos artigos mais citados da sociologia (1411 citações em 2023!) 
+<br><br>
+
+- Aborda as mudanças no significado da pesquisa empírica e nos repertórios metodológicos da sociologia
+<br><br>
+
+- "É a relevância das tecnologias de pesquisa empírica para a sociedade que torna a sociologia um campo de pesquisas importante socialmente"
+<br><br>
+
+- [Link para o artigo](https://journals.sagepub.com/doi/abs/10.1177/0038038507080443)
+
+:::
+:::
+::: {.column width="40%"}
+
+![](images/savage.png)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Antropologia Digital (2012)</strong> </div>
+<br><br>
 
 ::: columns
 ::: {.column width="60%"}
@@ -202,7 +331,7 @@ format:
 ##
 
 <div style="text-align: center; font-size: 55px;"> <strong>Mudança de paradigma nas ciências sociais</strong> </div>
-  <br>
+<br><br>
 
 ::: columns
 ::: {.column width="70%"}
@@ -221,38 +350,616 @@ format:
 :::
 :::
 
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>FERRAMENTAS</strong> </div>
+<br><br>
+
+
+![](https://media.giphy.com/media/3oFzmhSdxPiyRyR5vi/giphy.gif){fig-align="center"}
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>Gerenciamento de referências bibliográficas
+</strong> </div>
+<br>
+
+
+![](images/zotero.webp){fig-align="center"}
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>Gerenciamento de referências bibliográficas
+</strong> </div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [https://www.zotero.org/](https://www.zotero.org/)
+<br>
+
+
+- ### [Zotero do Zero - Tutorial de instalação do Zotero no Windows 10](https://youtu.be/CPdhyKboKC0)
+<br>
+
+- ### [Workshop de Zotero - Ferramentas Digitais e a pesquisa em Humanidades](https://youtu.be/I5ohkh5d51Y)
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>Análise qualitativa de dados</strong> </div>
+<br>
+
+
+![](images/quali.webp){fig-align="center"}
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Análise qualitativa de dados</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [ATLAS.ti](https://atlasti.com/)
+<br>
+
+- ### [NVivo](https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home)
+<br>
+
+- ### [MaxQDA](https://www.maxqda.com/)
+<br>
+
+- ### [Iramuteq](http://www.iramuteq.org/)
+<br>
+
+- ### [RQDA](https://rqda.r-forge.r-project.org/)
+<br>
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Análise qualitativa de dados (ATLAS.ti)</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### [Slides para aprender o ATLAS.ti versão 7](https://prezi.com/c851ggslq3ef/atlasti-ufjf-2017-modulo-i/?present=1)
+<br>
+
+- ### [Oficina LABHDUFBA - ATLAS.ti 7 (parte 1)](https://youtu.be/wmYHvfxfM5Q)
+<br>
+
+- ### [Oficina LABHDUFBA - ATLAS.ti 7 (parte 2)](https://youtu.be/IB3ldXF1zEM)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>GIT</strong> </div>
+<br>
+
+
+![](images/git.webp){fig-align="center"}
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>GIT</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Como instalar?](https://www.youtube.com/watch?v=PGIuYvkctj0)
+<br>
+
+
+- ### [Comece aqui!](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2019-09-12-RLadies-12-Git-Github-Ana-Bastos.pdf)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"> <strong>GitHub</strong> </div>
+<br>
+
+
+![](images/github.webp){fig-align="center"}
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>GitHub</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Git e Github para noobs das humanidades](https://www.youtube.com/watch?v=ZSevDOHWsNM)
+<br>
+
+- ### [Git e Github no RStudio](https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#1)
+<br>
+
+- ### [Git e GitHub para as Humanidades Digitais - Prof. Eric Brasil](https://www.youtube.com/watch?v=I9Atm-25fXE)
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>R + Rstudio</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Como instalar?](https://livro.curso-r.com/1-1-instalacao-do-r.html)
+<br>
+
+- ### [Comece aqui!](https://maryms.github.io/2019-02-R-Basics-R-LadiesSP/#1)
+<br>
+
+- ### [Onde aprender mais?](https://github.com/beatrizmilz/materiais_estudo_R)
+<br>
+
+- ### [Canal do R-Brasil no Telegram!](https://t.me/rbrasiloficial)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>R + Rstudio (plus ultra)</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### [Canal do R e RStudio 📈📊Humanidades no Telegram!](https://t.me/R_humanidades)
+<br>
+
+- ### [SICSS R/Rstudio](https://sicss.io/boot_camp/)
+<br>
+
+- ### [R for Data Science](https://r4ds.had.co.nz/index.html)
+<br>
+
+- ### [Introduction to R for Social Scientists](https://clanfear.github.io/CSSS508/)
+<br>
+
+- ### [Curso de R](https://livro.curso-r.com/2-rstudio.html)
+<br>
+
+:::
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Python</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Como instalar?](http://python.org.br/instalacao-windows/)
+<br>
+
+- ### [Comece aqui!](https://leofn.github.io/oficina-python/#/)
+<br>
+
+- ### [Onde aprender mais?](https://pythonhumanities.com/python-for-dh-course/)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Análise de redes: Gephi</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Como instalar?](https://ibpad.com.br/comunicacao/aprenda-a-instalar-o-gephi/)
+<br>
+
+- ### [Comece aqui!](https://seinecle.github.io/gephi-tutorials/generated-pdf/simple-project-from-a-to-z-en.pdf)
+<br>
+
+- ### [Preparando seus dados: Table 2 Net](https://medialab.github.io/table2net/)
+<br>
+
+:::
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Ferramentas de raspagem para Instagram</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### [Instaloader](https://instaloader.github.io/)
+<br>
+
+- ### Após instalar o Python 3 (e devidamente colocado no PATH do Windows!
+<br>
+
+- ### pip ou pip3 install instaloader
+<br>
+
+- ### DIGITE após "C:\diretorio>" .---> instaloader profile perfil_sem_@
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Ferramentas para análise de texto: Voyant Tools</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Como instalar?](https://voyant-tools.org/)
+<br>
+
+- ### [Comece aqui!](http://www.larhud.ibict.br/index.php?title=Voyant_Tools)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Digital Methods Intiative</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Digital Methods Intiative](Digital Methods Initiative)
+<br>
+
+- ### [Lista de ferramentas](https://wiki.digitalmethods.net/Dmi/ToolDatabase)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Programming Historian</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [Site do Programming Historian](https://programminghistorian.org/pt/)
+<br>
+
+:::
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>SICSS - Summer Institute in Computational Social Science</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Por que? Para que?
+<br>
+
+- ### [SICSS - SSummer Institute in Computational Social Science](https://sicss.io/curriculum)
+<br>
+
+:::
+
+
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>TITULO</strong> </div>
-  <br>
+<br><br><br><br><br><br><br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>ALGUNS CASOS/PRODUTOS</strong> </div>
+<br>
 
-::: columns
-::: {.column width="60%"}
-
-
-
-:::
-  ::: {.column width="40%"}
-
-![](images/)
-
-:::
-:::
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>TITULO</strong> </div>
-  <br>
+<br><br><br><br><br><br><br><br>
+<div style="text-align: center; font-size: 55px;"> <strong>DESAFIOS</strong> </div>
+<br>
 
-::: columns
-::: {.column width="60%"}
+## 
 
-texto
+<div style="text-align: center; font-size: 55px;"><strong>Produzir uma Ciência Social Computacional crítica...</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### ...dos datasets
+<br>
+
+- ### ...das ferramentas
+<br>
+
+- ### ...que articule teoria social e métodos computacionais
+<br>
+
+- ### ...e pública
+<br>
 
 :::
-  ::: {.column width="40%"}
 
-![](images/)
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica dos datasets</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### ["Raw Data" Is an Oxymoron](https://direct.mit.edu/books/book/3992/Raw-Data-Is-an-Oxymoron) 
+<br>
 
 :::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica dos datasets</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### "Para trabalhar com dados, você precisa entender aquilo que os dados estão tentando representar. Uma das primeiras coisas que devemos fazer diante de uma base de dados, é compreender as condições através das quais essa base de dados chegou a existir. Há sempre uma história por trás dos dados. Há sempre uma narrativa."
+<br>
+
+[Smari McCarthy, making data speak](https://exposingtheinvisible.org/en/films/smari-mccarthy-making-data-speak/)
+<br>
+
 :::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>DATASHEETS FOR DATASETS</strong></div>
+<br>
+
+::: {.incremental}
+
+- ##### "Cada conjunto de dados deve ser acompanhado por uma ficha técnica que documente sua motivação, composição, processo de coleta, usos recomendados, etc. (...) Aumentar a transparência e a responsabilidade dentro da comunidade de aprendizado de máquina, mitigar preconceitos sociais indesejados em modelos de aprendizado de máquina, facilitar uma maior reprodutibilidade dos resultados de aprendizado de máquina e ajudar pesquisadores e profissionais a selecionar conjuntos de dados mais apropriados para suas tarefas escolhidas.""
+<br>
+
+- [Link para o artigo Datasheets for datasets](https://arxiv.org/abs/1803.09010)
+<br>
+
+- [Apresentação do LABHDUFBA sobre o artigo](https://docs.google.com/presentation/d/1qv1VveggDxKg8YxsGgGzu9n_BI99AVZFByY0LojAgSQ/edit?usp=sharing)
+<br>
+
+
+:::
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica dos datasets</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### O trabalho do <s>historiador</s> ciêntista social diante do arquivo digital, portanto, não é tão diferente do trabalho diante do arquivo físico, pois exige tanto rigor metodológico no tratamento da fonte quanto o tratamento de uma fonte não digital. [...]esse cuidado muitas vezes é escamoteado diante da profusão de fontes, a agilidade da busca, a velocidade do acesso e a facilidade do armazenamento. 
+<br>
+
+- ### [Brasil & Nascimento, 2020](https://www.scielo.br/j/eh/a/XNJJWhFFzPKdkhF6cyj5BJv/)
+<br>
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica dos datasets</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Publicidade, acessibilidade e terceirização
+<br>
+
+- ### Evocação/"Ad hoc" versus coleta (*repurpose* - Salganik, 2020)
+<br>
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica das ferramentas</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Um "erro no código" passa a constituir um "erro metodológico"
+<br>
+
+![](images/python.png){fig-align="center"}
+
+:::
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica das ferramentas</strong></div>
+
+::: {.incremental}
+
+- ### "nossos ajudantes digitais já estão cheios de teoria e julgamento" (Bernhard Rieder and Theo Röhle in: BERRY, 2012, p. 70)
+
+![](images/bender.jpg){fig-align="center" width=35%}
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica das ferramentas</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### “Não existe neutralidade metodológica das técnicas” 
+(BOURDIEU; PASSERON; CHAMBOREDON, 2004, p. 55)
+<br>
+
+![](images/bourdieu.jpg){fig-align="center" width=30%}
+
+:::
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: crítica das ferramentas</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Letramento digital
+<br>
+
+- ### Articulação analógico e digital
+<br>
+
+- ### Superação da suposta oposição Quali-quanti
+<br>
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC: articulação teoria e empiria</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Estudantes de graduação e pós-graduação [deveriam ser] ensinados como construir uma teoria por conta própria, principalmente fazendo pequenos projetos empíricos que introduzem os alunos à abstração, abdução e indução. Ensinar teorização como uma habilidade prática em vez de teoria como história intelectual implica em desenvolver habilidades em design de pesquisa, resolução de problemas e pensamento abstrato, analógico e abdutivo.
+<br>
+
+- ### (Ignatow, 2020, p.96)
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>CSC crítica e pública</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Importância da presença digital: visibilidade e engajamento
+<br>
+
+- ### Data power!
+<br>
+
+- ### Tentação ao profetismo e sedução pelas lógicas de metrificação 
+<br>
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Como eu aprendo a fazer **Ciência Social Computacional**?</strong></div>
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Vamos aprender a andar de bicicleta?</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Utilidade;
+<br>
+
+- ### Aprendizado; 
+<br>
+
+- ### Aperfeiçoamento;
+<br>
+
+- ### Diversificação;
+<br>
+
+- ### "Artesanato digital"
+<br>
+
+:::
+
+---
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>À guisa de conclusão: "certo, mas onde eu começo"?</strong></div>
+<br>
+
+::: {.incremental}
+
+- ### Investir no letramento digital!
+<br>
+
+- ### Praticar ciência aberta: dados abertos, códigos abertos, ferramentas abertas;
+<br>
+
+- ### Abandonar o fetichismos dos dados, dos métodos e dos resultados
+<br>
+
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>Referências bilbiográficas</strong></div>
+<br>
+
+
+BOURDIEU, P.; PASSERON, J. C.; CHAMBOREDON, J. C. Ofício de Sociólogo: metodologia da pesquisa na sociologia. Petrópolis: Vozes, 2004.
+
+Boyd, D., & Crawford, K. (2012). Critical questions for big data. Information, Communication & Society, 15(5), 662–679
+
+[FEATHERSTONE, M. Ubiquitous Media: An Introduction. Theory, Culture & Society, v. 26, n. 2–3, p. 1–22, 1 mar. 2009.](https://journals.sagepub.com/doi/10.1177/0263276409103104)
+
+[HOWISON, J.; WIGGINS, A.; CROWSTON, K. Validity Issues in the Use of Social Network Analysis with Digital Trace Data. Journal of the Association for Information Systems, v. 12, n. 12, 29 dez. 2011.](http://aisel.aisnet.org/jais/vol12/iss12/2)
+
+RIEDER, B.; RÖHLE, T. Digital Methods. In: SCHÄFER, M. T.; VAN ES, K. (Ed.). The Datafied Society. Studying Culture through Data. [s.l.] Amsterdam University Press, 2017. p. 109–124.
+
+[SOUTHERTON, C. Datafication. In: SCHINTLER, L. A.; MCNEELY, C. L. (Ed.). Encyclopedia of Big Data. Cham: Springer International Publishing, 2020. p. 1–4.](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-32001-4_332-1)
+
+
