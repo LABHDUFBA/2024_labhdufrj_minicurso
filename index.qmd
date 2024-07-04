@@ -941,6 +941,26 @@ format:
 - ### Abandonar o fetichismos dos dados, dos métodos e dos resultados
 <br>
 
+::: 
+
+## 
+
+<div style="text-align: center; font-size: 55px;"><strong>AGRADECIMENTOS ESPECIAIS</strong></div>
+<br>
+
+::: {.incremental}
+
+::: {.incremental}
+
+- ### Aos colegas do LABHDUFRJ, em especial aos coordenadores Profs Bruno Durães e Joyce Louback e membros do lab.
+<br>
+
+- ### Ao Programa de Pós-Graduação em Sociologia e Antropologia (PPGSA) do IFCS/UFRJ;
+<br>
+
+::: 
+
+
 
 ## 
 
